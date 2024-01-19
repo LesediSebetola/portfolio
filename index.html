@@ -15,7 +15,10 @@
             <a href="index.html" class="logo"><span>L</span>esedi.</a>
             <ul id="sidemenu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#my-services">My Services</a></li>
+                <li><a href="#my-projects">My Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
                 <img src="Images/cancel (1).PNG" alt="" class="fas" onclick="closemenu()">
             </ul>
             <img src="Images/menu (2).jpg" alt="" class="fas" onclick="openmenu()">
@@ -24,6 +27,7 @@
                 <p>Web Developer</p>
                 <h1>Hi! I'm <span>Lesedi Sebetola</span></h1>
              </div>
+             <button class="btn" src="" download>Download CV</button>
        </div>
      </div>
 
@@ -46,18 +50,18 @@
                        user experiences. As a goal-driven individual, I am constantly seeking 
                        opportunities to expand my knowledge and improve my skills. I am a quick 
                        learner who embraces challenges and approaches them with a positive
-                        midset, always striving for excellence in my work.
+                        midset, always striving for excellence in my work.</p>
 
-                      <br>In my journey as a self-educated frontend developer I have built a 
+                      <p>In my journey as a self-educated frontend developer I have built a 
                       solid foundation in HTML, CSS ad Javascript. I have keen eye for design 
                       and a deep understanding of user experience principles. Whether it's 
                       enhancing existing projects or starting from scratch.</p>
 
                     <div class="tab-titles">
-                        <p class="tab-links">Skills</p>
+                        <p class="sub-heading">Skills</p>
                     </div>
                     <div class="tab-contents">
-                        <ul>
+                        <ul class="content1">
                           <li>HTML</li>
                           <li>CSS</li>
                           <li>Javascript</li>
@@ -70,42 +74,60 @@
              </div>
         </div>
       </div>
-       
-      <div id="portfolio">
-           <div class="container">
-              <h1 class="sub-title">My Projects</h1>
-              <div class="work-list">
-                  <div class="work">
-                      <img src="Images/notes.PNG" alt="">
-                      <div class="layer">
-                        <h4>To-Do List</h4> 
-                        <p>A schedule app where you can add lists on what you want to do when.</p>
-                      </div>
-                  </div>
-                  <div class="work">
-                     <a href=""><img src="Images/notes.PNG" alt=""></a>
-                     <div class="layer">  
-                       <h4>Notes</h4>
-                       <p>Make notes as many as you want and delete when you want.</p>
-                    </div>
-                   </div>
-                  <div class="work">
-                      <a href=""><img src="Images/calculator.PNG" alt=""></a>
-                      <div class="layer">
-                        <h4>Calculator</h4>
-                        <p>Its a calculator that can be used to add, subruct,devide and multiply numbers.</p>
-                    </div>
-                  </div>
-              </div>
-           </div>
+
+
+      <div>
+        <h3 id="my-services" class="sub-title">My Services</h3>
+        <div class="services">
+          <div class="laya">
+              <h4>Responsive Web Design</h4>
+              <p>Designing websites that are optimezed for viewing on different devices including desktop, laptops, tablets and smartphones.</p>
+          </div>
+          <div class="laya">
+              <h4>Perfomance Optimisation</h4>
+              <p>Optimizing websites or web applications fir faster load times and better perfomance.</p>
+          </div>
+        </div>
       </div>
+
+      <div>
+        <h3 id="my-projects" class="sub-title">My Projects</h3>
+       <div class="services">
+    
+        <div class="laya">
+             <img src="Images/BankIT.PNG" alt="">
+             <h1>BankIT</h1>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium debitis obcaecati labore. In aspernatur, quidem soluta saepe repellendus blanditiis ipsum.</p>
+             <button href="https://github.com/LesediSebetola/BankIT" class="hub-btn">GitHub</button>
+             <button href="https://lesedisebetola.github.io/BankIT/" class="btn">View Site</button>
+        </div>
+        <div class="laya">
+          <img src="Images/calculator.PNG" alt="">
+          <h1>Calculator</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium debitis obcaecati labore. In aspernatur, quidem soluta saepe repellendus blanditiis ipsum.</p>
+          <button href="https://github.com/LesediSebetola/calculator" class="hub-btn">GitHub</button>
+          <button href="https://lesedisebetola.github.io/calculator/" class="btn">View Site</button>
+        </div>
+        <div class="laya">
+          <img src="Images/ToDo list.PNG" alt="">
+          <h1>ToDo list</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium debitis obcaecati labore. In aspernatur, quidem soluta saepe repellendus blanditiis ipsum.</p>
+          <button href="https://github.com/LesediSebetola/to-do-list" class="hub-btn">GitHub</button>
+          <button href="https://lesedisebetola.github.io/to-do-list/" class="btn">View Site</button>
+        </div>
+        
+       </div>
+     </div>
 
       <div id="contact">
           <div class="container">
+
             <a href="contacts.html"></a>
              <div class="row">
                  <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
+                    <h5>Let's work together!</h5>
+                    <p class="p">Feel free to get in touch with me for enquiries, collaborations, or project discussions. I'm looking foward to hear from you and explore how we can work together to create an exceptional digital experience.</p>
                     <p><img src="Images/IMG_6953.PNG" alt="" class="email">lesedisebetola@gmail.com</p>
                     <p><img src="Images/IMG_6952.JPG" alt="">063 801 0078</p>
                      <div class="social-icons">
@@ -120,11 +142,19 @@
              </div>
           </div>
       </div>
-
+    </div>
       <div class="copyright">
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Terms & conditions</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#contact">Contact us</a></li>
+      </ul>
           <p>Copyright (c) Lesedi Sebetola</p>
       </div>
-    </div>
+    
     <script src="index.js"></script>
 </body>
 </html>
